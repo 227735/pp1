@@ -5,17 +5,12 @@ f(amount_to_pay) that returns the minimum number
 of coins that can be used to pay
 for the purchased product.
 '''
-def f(n):
-    coins = 0
-    coins += n//5
-    n = n % 5
-    coins += n//2
-    n = n % 2
-    coins += n
-    return coins
 
-if __name__ == '__main__':
-    #check your program in this place
-    print(f(9))
-    print(f(10))
-    print(f(16))
+def f(amount_to_pay):
+    coins = 0
+    coins += amount_to_pay // 5
+    amount_to_pay = amount_to_pay % 5
+    coins += amount_to_pay // 2
+    amount_to_pay = amount_to_pay % 2
+    coins += amount_to_pay // 1
+    return coins
