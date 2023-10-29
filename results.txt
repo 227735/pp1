@@ -1,0 +1,19 @@
+test_p1 (__main__.Test) ... FAIL
+test_p2 (__main__.Test) ... ok
+test_p3 (__main__.Test) ... ok
+test_p4 (__main__.Test) ... ok
+test_p5 (__main__.Test) ... ok
+test_p6 (__main__.Test) ... ok
+
+======================================================================
+FAIL: test_p1 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\Monika\Desktop\pp1\05-Test1\mock\check.py", line 13, in test_p1
+    self.assertEqual(p1.f(31),7)
+AssertionError: 6 != 7
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.005s
+
+FAILED (failures=1)
