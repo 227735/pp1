@@ -10,3 +10,4 @@ print(math.sqrt(7))
 degrees = 90
 radians = math.radians(degrees)
 print(math.sin(radians))
+

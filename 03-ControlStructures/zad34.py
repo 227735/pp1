@@ -12,3 +12,7 @@ print(f"5 zł : {piątki}")
 print(f"2 zł : {dwójki}") 
 print(f"1 zł : {jedynki}")
 
+
+
+
+

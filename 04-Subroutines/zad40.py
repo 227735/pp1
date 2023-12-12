@@ -1,6 +1,9 @@
 def f(number):
-    for i in number:
-        if i.count() > 1:
-            return sum(i)
+    sum = 0
+    string = str(number)
+    for i in string:
+        if string.count(i) >= 2:
+            sum += int(i)
+    return sum
         
 print(f(230335))

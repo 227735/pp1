@@ -4,5 +4,5 @@ def f(binary_number):
             return False
     return True
     
-        
+    
 print(f("101101"))

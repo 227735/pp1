@@ -5,3 +5,4 @@ for i in range(1, rows * 2):
         print("* " * i)
     else:
         print("* " * (rows * 2 - i))
+

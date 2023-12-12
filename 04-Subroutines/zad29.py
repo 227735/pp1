@@ -6,3 +6,5 @@ def f(amount_to_pay):
     amount_to_pay = amount_to_pay % 2
     coins += amount_to_pay // 1
     return coins
+
+print(f(23))

@@ -3,7 +3,7 @@ def f(expression):
         result = eval(expression)
         return result
     except:
-        return None
+        return 0
 
 
 print(f("")) 

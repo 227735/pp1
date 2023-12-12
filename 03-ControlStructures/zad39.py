@@ -6,3 +6,4 @@ for i in range(a):
         print("*" * b)
     else:
         print("*" + " " * (b - 2) + "*")
+

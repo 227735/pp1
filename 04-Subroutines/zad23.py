@@ -5,3 +5,4 @@ for i in x:
     if i == letter:
         count += 1
 print(f"The number of letter '{letter}': {count}")
+

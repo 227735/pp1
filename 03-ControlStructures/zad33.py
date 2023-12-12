@@ -9,3 +9,4 @@ while iloraz > 0:
     iloraz = iloraz // 2
 
 print(f"{decimal_number}(10) = {binary_number}(2)")
+
