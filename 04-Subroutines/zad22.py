@@ -5,5 +5,3 @@ def month(n):
         wynik += months[n-1]
     return wynik
 
-
-print(month(12))

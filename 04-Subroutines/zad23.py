@@ -1,5 +1,5 @@
 x = "You never get a second chance to make a first impression"
-letter = "n"
+letter = "e"
 count = 0
 for i in x:
     if i == letter:

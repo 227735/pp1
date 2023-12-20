@@ -19,7 +19,6 @@ while len(prime) < n:
         prime.append(number)
     number += 1
 
-
 print(prime)
 
 

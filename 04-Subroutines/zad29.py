@@ -7,4 +7,3 @@ def f(amount_to_pay):
     coins += amount_to_pay // 1
     return coins
 
-print(f(23))
