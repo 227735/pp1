@@ -10,7 +10,6 @@ with open("products.csv", "r") as csvfile:
 with open("products.json", "w") as jsonfile:
     json.dump(products_data, jsonfile, indent = 4)
 
-print(products_data)
 
 
 
